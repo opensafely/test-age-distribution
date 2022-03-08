@@ -4,7 +4,7 @@
 
 This is the code and configuration for the test-age-distribution research project.
 Unlike other projects, the purpose of this project is to verify the OpenSAFELY framework.
-This purpose is authorized by [this policy]().
+This purpose is authorized by [this policy](https://docs.opensafely.org/developer-access-policy/).
 
 You can dry run this project via [Gitpod](https://gitpod.io) by clicking on the Gitpod badge, above.
 
