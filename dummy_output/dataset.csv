@@ -1,4 +1,6 @@
-patient_id,year_of_birth
-1,1943
-2,2000
-3,2010
+patient_id,age
+1,70
+2,60
+3,60
+4,60
+5,30
