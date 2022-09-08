@@ -1,5 +1,8 @@
 from databuilder.query_language import Dataset
-from databuilder.tables.beta.tpp import patients
+
+from lib import pick_backend_tables
+
+patients, = pick_backend_tables()
 
 year_of_birth = patients.date_of_birth.year
 dataset = Dataset()
