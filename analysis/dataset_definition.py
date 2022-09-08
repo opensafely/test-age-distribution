@@ -1,5 +1,8 @@
 from databuilder.query_language import Dataset
-from databuilder.tables.beta.tpp import patients
+
+from lib import pick_backend_tables
+
+patients, = pick_backend_tables()
 
 index_year = 2022
 min_age = 18
