@@ -15,11 +15,11 @@ actions:
       highly_sensitive:
         dataset: output/dataset.csv
 
-  count_by_year:
+  count_by_age:
     run: >
       python:latest
-        python analysis/count_by_year.py
+        python analysis/count_by_age.py
     needs: [generate_dataset]
     outputs:
       moderately_sensitive:
-        count: output/count_by_year.csv
+        count: output/count_by_age.csv
