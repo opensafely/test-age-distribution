@@ -1,5 +1,5 @@
 from databuilder.query_language import Dataset
-from databuilder.tables import patients
+from databuilder.tables.beta.tpp import patients
 
 index_year = 2022
 min_age = 18
