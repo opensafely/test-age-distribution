@@ -6,11 +6,11 @@ expectations:
 actions:
   generate_dataset:
     run: >
-      databuilder:v0.34.1
-        generate_dataset
-        --dataset-definition analysis/dataset_definition.py
-        --dataset output/dataset.csv
+      databuilder:v0.46.1
+        generate-dataset
+        --output output/dataset.csv
         --dummy-data-file dummy_output/dataset.csv
+        analysis/dataset_definition.py
     outputs:
       highly_sensitive:
         dataset: output/dataset.csv
