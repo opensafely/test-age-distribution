@@ -1,4 +1,4 @@
-from databuilder.query_language import Dataset
+from databuilder.ehrql import Dataset
 from databuilder.tables.beta.tpp import patients
 
 year_of_birth = patients.date_of_birth.year
