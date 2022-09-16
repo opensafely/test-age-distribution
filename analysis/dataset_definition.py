@@ -1,5 +1,5 @@
 from databuilder.ehrql import Dataset
-from databuilder.tables.beta.tpp import patients
+from databuilder.tables.beta.smoketest import patients
 
 index_year = 2022
 min_age = 18
