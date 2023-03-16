@@ -6,7 +6,7 @@ expectations:
 actions:
   generate_dataset:
     run: >
-      databuilder:v0.48.0
+      databuilder:v0
         generate-dataset
         --output output/dataset.csv
         --dummy-data-file dummy_output/dataset.csv
